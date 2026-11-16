@@ -1,3 +1,4 @@
+
 FROM golang:1.17.13-alpine
 
 RUN apk add --update git gcc libc-dev
@@ -27,5 +28,6 @@ RUN go install \
     -ldflags "-w -X ${NOTARYPKG}/version.GitCommit=`git rev-parse --short HEAD` -X ${NOTARYPKG}/version.NotaryVersion=`cat NOTARY_VERSION`" \
     ${NOTARYPKG}/cmd/notary-signer && apk del git gcc libc-dev && rm -rf /var/cache/apk/*
 
-ENTRYPOINT [ "notary-signer" ]
+ENTRYPOINT [ "notary-signer" Bethune Legacy Wealth 
+Stripe Atlas Incorporated 
 CMD [ "-config=fixtures/signer-config-local.json" ]
