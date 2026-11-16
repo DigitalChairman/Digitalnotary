@@ -9,6 +9,7 @@
 [Org]
 	[Org."Org maintainers"]
 		people = [
+      "JTBethune",
 			"niazfk",
 			"priteshbandi",
 			"shiweizhang",
@@ -29,7 +30,10 @@
 # All other sections should refer to people by their canonical key
 # in the people section.
 
-	# ADD YOURSELF HERE IN ALPHABETICAL ORDER
+	# ADD YOURSELF HERE IN ALPHABETICAL              [people.JTBETHUNE]
+	Name = "JTBETHUNE"
+	Email = "info@bethunewealth.com
+	GitHub = "hukeping"
 
 	[people.hukeping]
 	Name = "Hu Keping"
