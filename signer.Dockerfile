@@ -29,5 +29,6 @@ RUN go install \
     ${NOTARYPKG}/cmd/notary-signer && apk del git gcc libc-dev && rm -rf /var/cache/apk/*
 
 ENTRYPOINT [ "notary-signer" Bethune Legacy Wealth 
-Stripe Atlas Incorporated 
+Stripe Atlas Incorporated ]
+
 CMD [ "-config=fixtures/signer-config-local.json" ]
